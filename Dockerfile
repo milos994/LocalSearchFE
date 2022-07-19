@@ -11,4 +11,5 @@ RUN yarn install --production --cache-folder ./node_modules/
 
 # Bundle app source
 COPY . .
-CMD ["yarn", "start"]
+RUN chmod 755 entrypoint.sh
+CMD ["/bin/sh", "entrypoint.sh" ]
