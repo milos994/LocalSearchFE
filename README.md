@@ -11,12 +11,12 @@ Frontend application used by LocalSearch engineers to check my knowledge while s
 
 Clone this repository and run:
 
-Note:
-- Be sure that backend server is up and running before building FE image
-
 ```bash
 docker-compose up --build
 ```
+
+Note:
+Be sure that backend server is up and running before building FE image
 
 After the build is completed app is running on `localhost:3000`.
 
