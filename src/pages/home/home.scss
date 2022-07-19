@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+} 
+
+.results-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

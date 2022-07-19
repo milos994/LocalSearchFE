@@ -1,0 +1,31 @@
+.paper {
+  margin: 20px;
+  width: 700px;
+  height: 600px;
+  padding: 20px;
+}
+
+.businessDetailed {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.info1 {
+  flex:1;
+}
+
+.info2 {
+  flex:1;
+}
+
+.day {
+  text-transform: capitalize;
+}
