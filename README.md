@@ -4,9 +4,8 @@ Frontend application used by LocalSearch engineers to check my knowledge while s
 
 ## Features
 
-* Get all available business entries
-* Search business entries by specific term
-* Get specific business entry
+* Main Page with buisness items and search form
+* Detailed page with buisnes item details
 ## How to run App?
 
 Clone this repository and run:
