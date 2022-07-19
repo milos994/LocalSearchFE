@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as RouterNew, Redirect, Switch } from 'react-router-dom'
-import { ROUTES } from './consts/routes'
+import { ROUTES } from './constants/routes'
 import { DetailedPage, HomePage } from './pages'
 
 export const Router = () => {

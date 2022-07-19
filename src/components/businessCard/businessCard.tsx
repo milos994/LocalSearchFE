@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import './style.scss';
 import { useHistory } from 'react-router-dom';
-import { ROUTES } from '../../consts';
+import { ROUTES } from '../../constants';
 
 interface IProps {
   entity: BusinessEntry;

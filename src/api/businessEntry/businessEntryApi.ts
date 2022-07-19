@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-import { BASE_API } from '../../consts';
+import { BASE_API } from '../../constants';
 import { BusinessEntry, BusinessEntryDto } from '../../models';
 
 const PATH = '/business-entries';

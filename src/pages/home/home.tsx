@@ -39,7 +39,6 @@ export const HomePage = () => {
   return <div className='root'>
     <TextField
       fullWidth
-      label="Search"
       onChange={(e) => { search(e.target.value) }}
       placeholder="Search business entries"
       id="outlined-start-adornment"
